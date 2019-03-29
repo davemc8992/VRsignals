@@ -106,12 +106,12 @@
     <danger>
       <aspect>Stop</aspect>
     </danger>
-    <held>
-      <aspect>Stop</aspect>
-    </held>
     <permissive>
       <aspect>Low Speed Caution</aspect>
     </permissive>
+    <held>
+      <aspect>Stop</aspect>
+    </held>
   </specificappearances>
 
   <aspectMappings>
