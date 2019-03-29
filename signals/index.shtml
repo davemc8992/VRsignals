@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<!-- Copyright ($Author$) 2009 -->
+<title>JMRI: Victorian Railways Signaling Definition</title>
+
+<!-- Style -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<LINK REL="stylesheet" TYPE="text/css" HREF="/css/default.css"
+	MEDIA="screen">
+<LINK REL="stylesheet" TYPE="text/css" HREF="/css/print.css"
+	MEDIA="print">
+<LINK REL="icon" HREF="/images/jmri.ico" TYPE="image/png">
+<LINK REL="home" TITLE="Home" HREF="/">
+<!-- /Style -->
+</HEAD>
+
+<BODY>
+<!--#include virtual="/Header" -->
+    <div id="mainContent">
+
+<h1> 
+JMRI: Victorian Railways Signaling Definition
+</h1>
+
+This directory contains signaling definitions corresponding to common Victorian Railways double searchlight signalling practices. The reference used for these definitions is the Three Position signalling described on Mark Bau's website -
+http://www.victorianrailways.net/signaling/signalhome.html
+
+<p>
+See the 
+<a href="aspects.xml">aspect page</a>.
+
+<p>
+<h2>Signal Mast definitions:</h2
+<ul>
+<li><a href="appearance-sl2h.xml">Searchlight - Two Head signal</a>
+<li><a href="appearance-sl3h.xml">Searchlight - Three Head signal</a>
+<li><a href="appearance-dw1.xml">Searchlight - Single head Dwarf signal</a>
+</ul>
+<h2>Installation:</h2
+<ol>
+<li>Copy xml files to folder:  signals/VR/sl </li>
+<li>Copy gif files to folder:  resources/icons/smallschematics/aspects/VR/sl/</li>
+</ol>
+</div>
+<!--#include virtual="/Footer" -->
+</body>
+</html>

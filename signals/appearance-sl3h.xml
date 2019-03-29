@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../XSLT/appearancetable.xsl" type="text/xsl"?>
+
+<appearancetable
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation = "http://jmri.org/xml/schema/appearancetable.xsd"
+>
+
+  <copyright xmlns="http://docbook.org/ns/docbook">
+    <year>2019</year><holder>JMRI</holder>
+  </copyright>
+  
+  <authorgroup xmlns="http://docbook.org/ns/docbook">
+    <author>
+        <personname><firstname>David</firstname><surname>McMorran</surname></personname>
+    </author>    
+  </authorgroup>
+
+  <revhistory xmlns="http://docbook.org/ns/docbook">
+    <revision>
+        <revnumber>1</revnumber>
+        <date>2019-04-11</date>
+        <authorinitials>DBMc</authorinitials>
+        <revremark>Initial version</revremark>
+    </revision>    
+  </revhistory>
+
+  <aspecttable>Victorian Railways</aspecttable>
+  <name>Searchlight 3 heads</name>
+  <reference>As described on Mark Bau's website - http://www.victorianrailways.net/signaling/signalhome.html.
+</reference>
+  <description>Appearances for a three-searchlight signal head, includes C light</description>
+  
+  <appearances>
+
+    <appearance>
+      <aspectname>Clear Normal Speed</aspectname>
+      <show>green</show>
+      <show>red</show>
+      <show>dark</show>
+      <reference></reference>
+      <comment>aka Top green</comment>
+      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/top-green.gif</imagelink>
+    </appearance>
+
+    <appearance>
+      <aspectname>Normal Speed Warning</aspectname>
+      <show>yellow</show>
+      <show>red</show>
+      <show>dark</show>
+      <reference></reference>
+      <comment>aka Top yellow</comment>
+      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/top-yellow.gif</imagelink>
+    </appearance>
+
+    <appearance>
+      <aspectname>Reduce to Medium Speed</aspectname>
+      <show>yellow</show>
+      <show>green</show>
+      <show>dark</show>
+      <reference></reference>
+      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/reduce-to-medium.gif</imagelink>
+    </appearance>
+
+    <appearance>
+      <aspectname>Clear Medium Speed</aspectname>
+      <show>red</show>
+      <show>green</show>
+      <show>dark</show>
+      <reference></reference>
+      <comment>aka Bottom green</comment>
+      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/bottom-green.gif</imagelink>
+    </appearance>
+
+    <appearance>
+      <aspectname>Medium Speed Warning</aspectname>
+      <show>red</show>
+      <show>yellow</show>
+      <show>dark</show>
+      <reference></reference>
+      <comment>aka Bottom yellow</comment>
+      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/bottom-yellow.gif</imagelink>
+    </appearance>
+
+    <appearance>
+      <aspectname>Stop</aspectname>
+      <show>red</show>
+      <show>red</show>
+      <show>dark</show>
+      <reference></reference>
+      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/red-red.gif</imagelink>
+    </appearance>
+
+    <appearance>
+      <aspectname>Low Speed Caution</aspectname>
+      <show>red</show>
+      <show>red</show>
+      <show>yellow</show>
+      <reference></reference>
+      <comment>Low speed</comment>
+      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/caution.gif</imagelink>
+    </appearance>
+
+  </appearances>
+  <specificappearances>
+    <danger>
+      <aspect>Stop</aspect>
+    </danger>
+    <held>
+      <aspect>Stop</aspect>
+    </held>
+    <permissive>
+      <aspect>Low Speed Caution</aspect>
+    </permissive>
+  </specificappearances>
+
+  <aspectMappings>
+    <aspectMapping>
+      <advancedAspect>Clear Normal Speed</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Low Speed Caution</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Normal Speed Warning</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Low Speed Caution</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Reduce to Medium Speed</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Clear Medium Speed</advancedAspect>
+      <ourAspect>Reduce to Medium Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Low Speed Caution</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Medium Speed Warning</advancedAspect>
+      <ourAspect>Reduce to Medium Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Low Speed Caution</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Stop</advancedAspect>
+      <ourAspect>Medium Speed Warning</ourAspect>
+      <ourAspect>Normal Speed Warning</ourAspect>
+      <ourAspect>Low Speed Caution</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Low Speed Caution</advancedAspect>
+      <ourAspect>Medium Speed Warning</ourAspect>
+      <ourAspect>Normal Speed Warning</ourAspect>
+    </aspectMapping>
+
+  </aspectMappings>
+</appearancetable>  

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../XSLT/aspecttable.xsl" type="text/xsl"?>
+
+<aspecttable
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation = "http://jmri.org/xml/schema/aspecttable.xsd"
+>
+  <name>Victorian Railways</name>
+  <date>1980</date>
+  <reference>Three Position signalling described on Mark Bau's website -
+http://www.victorianrailways.net/signaling/signalhome.html
+</reference>
+
+  <copyright xmlns="http://docbook.org/ns/docbook">
+    <year>2019</year><holder>JMRI</holder>
+  </copyright>
+
+  <authorgroup xmlns="http://docbook.org/ns/docbook" >
+    <author>
+        <personname><firstname>David</firstname><surname>McMorran</surname></personname>
+        <email></email>
+    </author>    
+  </authorgroup>
+
+  <revhistory xmlns="http://docbook.org/ns/docbook">
+    <revision>
+        <revnumber>1</revnumber>
+        <date>2019-04-11</date>
+        <authorinitials>DBMc</authorinitials>
+        <revremark>Initial version</revremark>
+    </revision>    
+  </revhistory>
+
+  <aspects>
+
+    <aspect>
+      <name>Clear Normal Speed</name>
+      <rule></rule>
+      <indication>Proceed</indication>
+      <reference></reference>
+      <comment></comment>
+      <speed>Normal</speed>
+      <speed2>Normal</speed2>
+      <route>Normal</route>
+    </aspect>
+
+    <aspect>
+      <name>Normal Speed Warning</name>
+      <rule></rule>
+      <indication>Proceed</indication>
+      <reference></reference>
+      <speed>Normal</speed>
+      <speed2>Stop</speed2>
+      <route>Normal</route>
+    </aspect>
+
+    <aspect>
+      <name>Reduce to Medium Speed</name>
+      <rule></rule>
+      <indication>Proceed approaching second signal at medium speed</indication>
+      <reference></reference>
+      <speed>Normal</speed>
+      <speed2>Medium</speed2>
+      <route>Normal</route>
+    </aspect>
+
+    <aspect>
+      <name>Clear Medium Speed</name>
+      <rule></rule>
+      <indication>Proceed approaching next signal at medium speed</indication>
+      <reference></reference>
+      <speed>Medium</speed>
+    </aspect>
+
+    <aspect>
+      <name>Medium Speed Warning</name>
+      <rule></rule>
+      <indication>Proceed; Prepare to stop at next signal</indication>
+      <reference></reference>
+      <speed>Medium</speed>
+      <speed2>Stop</speed2>
+      <route>Normal</route>
+    </aspect>
+
+    <aspect>
+      <name>Stop</name>
+      <rule></rule>
+      <indication>Proceed approaching next signal at medium speed</indication>
+      <reference></reference>
+      <speed>Stop</speed>
+      <route>Normal</route>
+    </aspect>
+
+    <aspect>
+      <name>Low Speed Caution</name>
+      <rule></rule>
+      <indication>Proceed at low speed preparing to stop</indication>
+      <reference></reference>
+      <speed>Restricted</speed>
+      <speed2>Stop</speed2>
+      <route>Diverging</route>
+    </aspect>
+
+  </aspects>
+
+  <appearancefiles>
+    <appearancefile href="appearance-dw1.xml"/>
+    <appearancefile href="appearance-sl2h.xml"/>
+    <appearancefile href="appearance-sl3h.xml"/>
+  </appearancefiles>
+  
+</aspecttable>
+  
