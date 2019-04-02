@@ -99,7 +99,7 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <indication>Proceed at low speed preparing to stop</indication>
       <reference></reference>
       <speed>Restricted</speed>
-      <speed2>Stop</speed2>
+      <speed2>Restricted</speed2>
       <route>Diverging</route>
     </aspect>
 

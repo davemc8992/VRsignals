@@ -34,7 +34,7 @@
   <appearances>
 
     <appearance>
-      <aspectname>Clear Low Speed</aspectname>
+      <aspectname>Clear Medium Speed</aspectname>
       <show>green</show>
       <reference></reference>
       <comment></comment>
@@ -42,7 +42,7 @@
     </appearance>
 
     <appearance>
-      <aspectname>Low Speed Caution</aspectname>
+      <aspectname>Medium Speed Warning</aspectname>
       <show>yellow</show>
       <reference></reference>
       <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/DW-yellow.gif</imagelink>
