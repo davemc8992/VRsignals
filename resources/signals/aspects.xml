@@ -25,7 +25,7 @@ http://www.victorianrailways.net/signaling/signalhome.html
   <revhistory xmlns="http://docbook.org/ns/docbook">
     <revision>
         <revnumber>1</revnumber>
-        <date>2019-04-11</date>
+        <date>2020-07-11</date>
         <authorinitials>DBMc</authorinitials>
         <revremark>Initial version</revremark>
     </revision>    
@@ -70,7 +70,6 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <indication>Proceed approaching next signal at medium speed</indication>
       <reference></reference>
       <speed>Medium</speed>
-      <speed2>Medium</speed2>
     </aspect>
 
     <aspect>
@@ -84,13 +83,21 @@ http://www.victorianrailways.net/signaling/signalhome.html
     </aspect>
 
     <aspect>
+      <name>Clear Low Speed</name>
+      <rule></rule>
+      <indication>Proceed; Prepare to stop at next signal</indication>
+      <reference></reference>
+      <speed>Slow</speed>
+      <route>Normal</route>
+    </aspect>
+      
+    <aspect>
       <name>Stop</name>
       <rule></rule>
       <indication>Proceed approaching next signal at medium speed</indication>
       <reference></reference>
       <speed>Stop</speed>
-      <speed2>Stop</speed2>
-      <route>Normal</route>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -99,7 +106,6 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <indication>Proceed at low speed preparing to stop</indication>
       <reference></reference>
       <speed>Restricted</speed>
-      <speed2>Restricted</speed2>
       <route>Diverging</route>
     </aspect>
 
