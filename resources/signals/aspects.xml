@@ -92,21 +92,21 @@ http://www.victorianrailways.net/signaling/signalhome.html
     </aspect>
       
     <aspect>
-      <name>Stop</name>
-      <rule></rule>
-      <indication>Proceed approaching next signal at medium speed</indication>
-      <reference></reference>
-      <speed>Stop</speed>
-      <route>Either</route>
-    </aspect>
-
-    <aspect>
       <name>Low Speed Caution</name>
       <rule></rule>
       <indication>Proceed at low speed preparing to stop</indication>
       <reference></reference>
       <speed>Restricted</speed>
       <route>Diverging</route>
+    </aspect>
+
+    <aspect>
+      <name>Stop</name>
+      <rule></rule>
+      <indication>Proceed approaching next signal at medium speed</indication>
+      <reference></reference>
+      <speed>Stop</speed>
+      <route>Either</route>
     </aspect>
 
   </aspects>

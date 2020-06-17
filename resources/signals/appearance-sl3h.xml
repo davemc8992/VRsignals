@@ -19,7 +19,7 @@
   <revhistory xmlns="http://docbook.org/ns/docbook">
     <revision>
         <revnumber>1</revnumber>
-        <date>2019-04-11</date>
+        <date>2020-07-11</date>
         <authorinitials>DBMc</authorinitials>
         <revremark>Initial version</revremark>
     </revision>    
@@ -83,15 +83,6 @@
     </appearance>
 
     <appearance>
-      <aspectname>Stop</aspectname>
-      <show>red</show>
-      <show>red</show>
-      <show>dark</show>
-      <reference></reference>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/red-red.gif</imagelink>
-    </appearance>
-
-    <appearance>
       <aspectname>Low Speed Caution</aspectname>
       <show>red</show>
       <show>red</show>
@@ -99,6 +90,15 @@
       <reference></reference>
       <comment>Low speed</comment>
       <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/caution.gif</imagelink>
+    </appearance>
+
+    <appearance>
+      <aspectname>Stop</aspectname>
+      <show>red</show>
+      <show>red</show>
+      <show>dark</show>
+      <reference></reference>
+      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/red-red.gif</imagelink>
     </appearance>
 
   </appearances>
@@ -150,16 +150,16 @@
     </aspectMapping>
 
     <aspectMapping>
-      <advancedAspect>Stop</advancedAspect>
-      <ourAspect>Medium Speed Warning</ourAspect>
-      <ourAspect>Normal Speed Warning</ourAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
-    </aspectMapping>
-
-    <aspectMapping>
       <advancedAspect>Low Speed Caution</advancedAspect>
       <ourAspect>Medium Speed Warning</ourAspect>
       <ourAspect>Normal Speed Warning</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Stop</advancedAspect>
+      <ourAspect>Normal Speed Warning</ourAspect>
+      <ourAspect>Medium Speed Warning</ourAspect>
+      <ourAspect>Low Speed Caution</ourAspect>
     </aspectMapping>
 
   </aspectMappings>
