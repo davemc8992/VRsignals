@@ -26,10 +26,10 @@
   </revhistory>
 
   <aspecttable>Victorian Railways</aspecttable>
-  <name>Searchlight 3 heads</name>
+  <name>Searchlight 2 heads</name>
   <reference>As described on Mark Bau's website - http://www.victorianrailways.net/signaling/signalhome.html.
 </reference>
-  <description>Appearances for a three-searchlight signal head, includes C light</description>
+  <description>Appearances for common two-searchlight signal head</description>
   
   <appearances>
 
@@ -37,68 +37,52 @@
       <aspectname>Clear Normal Speed</aspectname>
       <show>green</show>
       <show>red</show>
-      <show>dark</show>
       <reference></reference>
       <comment>aka Top green</comment>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/top-green.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/top-green.gif</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Normal Speed Warning</aspectname>
       <show>yellow</show>
       <show>red</show>
-      <show>dark</show>
       <reference></reference>
       <comment>aka Top yellow</comment>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/top-yellow.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/top-yellow.gif</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Reduce to Medium Speed</aspectname>
       <show>yellow</show>
       <show>green</show>
-      <show>dark</show>
       <reference></reference>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/reduce-to-medium.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/reduce-to-medium.gif</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Clear Medium Speed</aspectname>
       <show>red</show>
       <show>green</show>
-      <show>dark</show>
       <reference></reference>
       <comment>aka Bottom green</comment>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/bottom-green.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/bottom-green.gif</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Medium Speed Warning</aspectname>
       <show>red</show>
       <show>yellow</show>
-      <show>dark</show>
       <reference></reference>
       <comment>aka Bottom yellow</comment>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/bottom-yellow.gif</imagelink>
-    </appearance>
-
-    <appearance>
-      <aspectname>Low Speed Caution</aspectname>
-      <show>red</show>
-      <show>red</show>
-      <show>yellow</show>
-      <reference></reference>
-      <comment>Low speed</comment>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/caution.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/bottom-yellow.gif</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Stop</aspectname>
       <show>red</show>
       <show>red</show>
-      <show>dark</show>
       <reference></reference>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/red-red.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/red-red.gif</imagelink>
     </appearance>
 
   </appearances>
@@ -106,9 +90,6 @@
     <danger>
       <aspect>Stop</aspect>
     </danger>
-    <permissive>
-      <aspect>Low Speed Caution</aspect>
-    </permissive>
     <held>
       <aspect>Stop</aspect>
     </held>
@@ -119,14 +100,12 @@
       <advancedAspect>Clear Normal Speed</advancedAspect>
       <ourAspect>Clear Normal Speed</ourAspect>
       <ourAspect>Clear Medium Speed</ourAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Normal Speed Warning</advancedAspect>
       <ourAspect>Clear Normal Speed</ourAspect>
       <ourAspect>Clear Medium Speed</ourAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
@@ -139,27 +118,24 @@
       <advancedAspect>Clear Medium Speed</advancedAspect>
       <ourAspect>Reduce to Medium Speed</ourAspect>
       <ourAspect>Clear Medium Speed</ourAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Medium Speed Warning</advancedAspect>
       <ourAspect>Reduce to Medium Speed</ourAspect>
       <ourAspect>Clear Medium Speed</ourAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Low Speed Caution</advancedAspect>
-      <ourAspect>Medium Speed Warning</ourAspect>
       <ourAspect>Normal Speed Warning</ourAspect>
+      <ourAspect>Medium Speed Warning</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Stop</advancedAspect>
       <ourAspect>Normal Speed Warning</ourAspect>
       <ourAspect>Medium Speed Warning</ourAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
     </aspectMapping>
 
   </aspectMappings>

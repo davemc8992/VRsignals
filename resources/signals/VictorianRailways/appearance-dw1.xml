@@ -38,21 +38,21 @@
       <show>green</show>
       <reference></reference>
       <comment></comment>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/DW-green.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/DW-green.gif</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Low Speed Warning</aspectname>
       <show>yellow</show>
       <reference></reference>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/DW-yellow.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/DW-yellow.gif</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Stop</aspectname>
       <show>red</show>
       <reference></reference>
-      <imagelink>../../../resources/icons/smallschematics/aspects/VR/sl/DW-red.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/DW-red.gif</imagelink>
     </appearance>
 
   </appearances>
