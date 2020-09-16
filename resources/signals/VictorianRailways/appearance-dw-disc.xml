@@ -19,17 +19,17 @@
   <revhistory xmlns="http://docbook.org/ns/docbook">
     <revision>
         <revnumber>1</revnumber>
-        <date>2019-04-11</date>
+        <date>2020-08-14</date>
         <authorinitials>DBMc</authorinitials>
         <revremark>Initial version</revremark>
     </revision>    
   </revhistory>
 
   <aspecttable>Victorian Railways</aspecttable>
-  <name>Dwarf Light 3 position signal</name>
+  <name>Dwarf Disc 3 position signal</name>
   <reference>As described on Mark Bau's website - http://www.victorianrailways.net/signaling/signalhome.html.
 </reference>
-  <description>Appearances for a single light dwarf signal</description>
+  <description>Appearances for a disc dwarf signal</description>
   
   <appearances>
 
@@ -38,21 +38,21 @@
       <show>green</show>
       <reference></reference>
       <comment></comment>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/dw-slG.png</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/dw-diG.png</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Low Speed Warning</aspectname>
       <show>yellow</show>
       <reference></reference>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/dw-slY.png</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/dw-diY.png</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Stop</aspectname>
       <show>red</show>
       <reference></reference>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/dw-slR.png</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/dw-diR.png</imagelink>
     </appearance>
 
   </appearances>

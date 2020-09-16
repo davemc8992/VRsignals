@@ -39,7 +39,7 @@
       <show>red</show>
       <reference></reference>
       <comment>aka Top green</comment>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/top-green.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-GR.png</imagelink>
     </appearance>
 
     <appearance>
@@ -48,7 +48,7 @@
       <show>red</show>
       <reference></reference>
       <comment>aka Top yellow</comment>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/top-yellow.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-YR.png</imagelink>
     </appearance>
 
     <appearance>
@@ -56,7 +56,7 @@
       <show>yellow</show>
       <show>green</show>
       <reference></reference>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/reduce-to-medium.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-YG.png</imagelink>
     </appearance>
 
     <appearance>
@@ -65,7 +65,7 @@
       <show>green</show>
       <reference></reference>
       <comment>aka Bottom green</comment>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/bottom-green.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-RG.png</imagelink>
     </appearance>
 
     <appearance>
@@ -74,7 +74,7 @@
       <show>yellow</show>
       <reference></reference>
       <comment>aka Bottom yellow</comment>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/bottom-yellow.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-RY.png</imagelink>
     </appearance>
 
     <appearance>
@@ -82,7 +82,7 @@
       <show>red</show>
       <show>red</show>
       <reference></reference>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/red-red.gif</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-RR.png</imagelink>
     </appearance>
 
   </appearances>
