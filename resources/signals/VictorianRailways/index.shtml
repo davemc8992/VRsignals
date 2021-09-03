@@ -22,7 +22,7 @@
 <h1> 
 JMRI: Victorian Railways Signaling Definition
 </h1>
-
+Signalling used in the state of Victoria, Australia.
 This directory contains signaling definitions corresponding to common Victorian Railways double searchlight signalling practices. The reference used for these definitions is the Three Position signalling described on Mark Bau's website -
 http://www.victorianrailways.net/signaling/signalhome.html
 
@@ -34,10 +34,10 @@ See the
 <h2>Signal Mast definitions:</h2
 <ul>
 <li><a href="appearance-sl2h.xml">Searchlight - Two Head high signal</a>
-<li><a href="appearance-sl2h-auto.xml">Searchlight - Two Head high signal</a>
+<li><a href="appearance-sl2h-auto.xml">Searchlight - Two Head high automatic signal</a>
 <li><a href="appearance-sl3h.xml">Searchlight - Three Head high signal</a>
 <li><a href="appearance-dw1.xml">Searchlight - Single head Dwarf signal</a>
-<li><a href="appearance-dw-disc.xml">Searchlight - Single head Dwarf signal</a>
+<li><a href="appearance-dw-disc.xml">Searchlight - Single head Dwarf disc signal</a>
 </ul>
 <h2>Installation:</h2
 <ol>

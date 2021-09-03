@@ -84,22 +84,21 @@
     <aspectMapping>
       <advancedAspect>Clear Medium Speed</advancedAspect>
       <ourAspect>Clear Low Speed</ourAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Medium Speed Warning</advancedAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
+      <ourAspect>Low Speed Warning</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Stop</advancedAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
+      <ourAspect>Low Speed Warning</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Low Speed Caution</advancedAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
+      <ourAspect>Low Speed Warning</ourAspect>
     </aspectMapping>
 
   </aspectMappings>

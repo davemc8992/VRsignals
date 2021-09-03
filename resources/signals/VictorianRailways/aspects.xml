@@ -70,7 +70,8 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <indication>Proceed approaching next signal at medium speed</indication>
       <reference></reference>
       <speed>Medium</speed>
-    </aspect>
+      <speed2>Normal</speed2>
+      </aspect>
 
     <aspect>
       <name>Medium Speed Warning</name>
@@ -88,6 +89,7 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <indication>Proceed; Prepare to stop at next signal</indication>
       <reference></reference>
       <speed>Slow</speed>
+      <speed2>Normal</speed2>
       <route>Normal</route>
     </aspect>
       
@@ -97,6 +99,7 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <indication>Proceed at low speed preparing to stop</indication>
       <reference></reference>
       <speed>Restricted</speed>
+      <speed2>Normal</speed2>
       <route>Diverging</route>
     </aspect>
 
@@ -106,6 +109,7 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <indication>Proceed approaching next signal at medium speed</indication>
       <reference></reference>
       <speed>Stop</speed>
+      <speed2>Normal</speed2>
       <route>Either</route>
     </aspect>
 
