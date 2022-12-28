@@ -19,14 +19,14 @@
   <revhistory xmlns="http://docbook.org/ns/docbook">
     <revision>
         <revnumber>1</revnumber>
-        <date>2020-07-11</date>
+        <date>2023-02-02</date>
         <authorinitials>DBMc</authorinitials>
         <revremark>Initial version</revremark>
     </revision>    
   </revhistory>
 
   <aspecttable>Victorian Railways</aspecttable>
-  <name>Searchlight 2 heads</name>
+  <name>Double Head</name>
   <reference>As described on Mark Bau's website - http://www.victorianrailways.net/signaling/signalhome.html.
 </reference>
   <description>Appearances for common two-searchlight signal head</description>
@@ -136,6 +136,48 @@
       <advancedAspect>Stop</advancedAspect>
       <ourAspect>Normal Speed Warning</ourAspect>
       <ourAspect>Medium Speed Warning</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Warning</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed Left</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed Centre</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed Right</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed with Caution</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Caution</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
     </aspectMapping>
 
   </aspectMappings>
