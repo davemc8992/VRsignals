@@ -9,7 +9,7 @@
   <date>1915 onwards</date>
   <reference>Two and Three Position signalling described on Mark Bau's website - http://www.victorianrailways.net/signaling/signalhome.html 
   </reference>
-  <reference>Two and Three Position signalling described at vicsig.net https://vicsig.net/index.php?page=infrastructure&section=signalling
+  <reference>Two and Three Position signalling described at vicsig.net https://vicsig.net/index.php?page=infrastructure
   </reference>
 
   <copyright xmlns="http://docbook.org/ns/docbook">
@@ -125,8 +125,7 @@
       <imagelink></imagelink>
       <speed>Normal</speed>
       <speed2>Normal</speed2>
-      <route></route>
-      <dccAspect></dccAspect>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -139,8 +138,7 @@
       <imagelink></imagelink>
       <speed>Normal</speed>
       <speed2>Stop</speed2>
-      <route></route>
-      <dccAspect></dccAspect>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -153,8 +151,7 @@
       <imagelink></imagelink>
       <speed>Normal</speed>
       <speed2>Normal</speed2>
-      <route></route>
-      <dccAspect></dccAspect>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -167,8 +164,7 @@
       <imagelink></imagelink>
       <speed>Normal</speed>
       <speed2>Normal</speed2>
-      <route></route>
-      <dccAspect></dccAspect>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -181,8 +177,7 @@
       <imagelink></imagelink>
       <speed>Normal</speed>
       <speed2>Normal</speed2>
-      <route></route>
-      <dccAspect></dccAspect>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -195,8 +190,7 @@
       <imagelink></imagelink>
       <speed>Restricted</speed>
       <speed2>Restricted</speed2>
-      <route></route>
-      <dccAspect></dccAspect>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -209,8 +203,7 @@
       <comment>Two position signal</comment>
       <speed>Restricted</speed>
       <speed2>Restricted</speed2>
-      <route></route>
-      <dccAspect></dccAspect>
+      <route>Either</route>
     </aspect>
 
   </aspects>

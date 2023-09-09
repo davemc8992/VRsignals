@@ -38,26 +38,26 @@ This contains signalling definitions corresponding to common Victorian Railways 
 <p>
 <h2>Signal Mast definitions:</h2
 <p>The JMRI signalling systems are used in the determination of what aspect a signal mast should show. How these get displayed on your layout is the next step and depends on what hardware and controllers you use and can vary widely so is not detailed in these signalling system definitions.</p>
-<p>Two position signal masts have the prefix '2p', all others are three position masts or can be used with either. Whilst these focus on searchlight signals, they will </p>
+<p>Two position signal masts have the prefix '2pos', all others are three position masts or can be used with either. Whilst these focus on searchlight signals, they can be used for semaphores.</p>
 <ul>
  <li>Three position signals</li>
   <ul>
-   <li><a href="appearance-sl2h.xml">Searchlight - Two head high signal</a>
-   <li><a href="appearance-sl2h-auto.xml">Searchlight - Two head high automatic signal</a>
-   <li><a href="appearance-sl2hC.xml">Searchlight - Two head plus C light high signal </a>
-   <li><a href="appearance-sl2h-rep.xml">Searchlight - Two head high repeating signal</a>
-   <li><a href="appearance-dw1.xml">Searchlight - Single head dwarf signal</a>
-   <li><a href="appearance-dw-disc.xml">Searchlight - Single head dwarf disc signal</a>
+   <li><a href="appearance-sl2h.xml">Two head home signal</a>
+   <li><a href="appearance-sl2h-auto.xml">Two head automatic signal</a>
+   <li><a href="appearance-sl2hC.xml">Two head plus C light high signal </a>
+   <li><a href="appearance-sl2h-rep.xml">Two head repeating signal</a>
+   <li><a href="appearance-dw1.xml">Single head dwarf signal</a>
+   <li><a href="appearance-dw-disc.xml">Single head dwarf disc signal</a>
   </ul>
  <li>Two position signals</li>
   <ul>
-   <li><a href="appearance-2p-Home.xml">2p Searchlight - Single head Home signal</a>
-   <li><a href="appearance-2p-HomeC.xml">2p Searchlight - Single head Home signal plus C light</a>
-   <li><a href="appearance-2p-Dist.xml">2p Searchlight - Single head Distant signal</a>
-   <li><a href="appearance-2p-Repeat.xml">2p Searchlight - Single head repeating signal</a>
-   <li><a href="appearance-2p-HomeArr2.xml">2p Searchlight - Single head Points, 2 paths</a>
-   <li><a href="appearance-2p-HomeArr3.xml">2p Searchlight - Single head Points, 3 paths</a>
-   <li><a href="appearance-2p-Dwarf.xml">2p Searchlight - Single head dwarf signal</a>
+   <li><a href="appearance-2p-Home.xml">2pos Searchlight - Single head Home signal</a>
+   <li><a href="appearance-2p-HomeC.xml">2pos Searchlight - Single head Home signal plus C light</a>
+   <li><a href="appearance-2p-Dist.xml">2pos Searchlight - Single head Distant signal</a>
+   <li><a href="appearance-2p-Repeat.xml">2pos Searchlight - Single head repeating signal</a>
+   <li><a href="appearance-2p-HomeArr2.xml">2pos Searchlight - Single head Points, 2 paths</a>
+   <li><a href="appearance-2p-HomeArr3.xml">2pos Searchlight - Single head Points, 3 paths</a>
+   <li><a href="appearance-2p-Dwarf.xml">2pos Searchlight - Single head dwarf signal</a>
 </ul>
 <h2>Installation:</h2
 <ol>

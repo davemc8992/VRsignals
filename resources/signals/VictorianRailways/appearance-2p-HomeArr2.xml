@@ -29,13 +29,14 @@
   <name>2 pos Home Arrival 2 dolls</name>
   <reference>As described on Mark Bau's website - http://www.victorianrailways.net/signaling/signalhome.html.
 </reference>
-  <description>Appearances for position single semaphore or searchlight Home signal</description>
+  <description>Appearances for 2-position Home signal with two dolls</description>
   
   <appearances>
 
     <appearance>
       <aspectname>Proceed Left</aspectname>
       <show>green</show>
+      <show>red</show>
       <reference></reference>
       <comment></comment>
       <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/2pArr2L.png</imagelink>
@@ -43,6 +44,7 @@
 
     <appearance>
       <aspectname>Proceed Right</aspectname>
+      <show>red</show>
       <show>green</show>
       <reference></reference>
       <comment></comment>
@@ -51,6 +53,7 @@
 
    <appearance>
       <aspectname>Stop</aspectname>
+      <show>red</show>
       <show>red</show>
       <reference></reference>
       <comment></comment>
