@@ -1,6 +1,7 @@
 # Victorian Railways Signals for JMRI
-Version 3.0  September, 2023  Do not use this if you have earlier versions.  
-##For 2 and 3 Position Signals used in Victoria, Australia.  
+Version 3.0  September, 2023  
+*Do not use this if you are using earlier versions, they are not compatible.*  
+## For 2 and 3 Position Signals used in Victoria, Australia.  
 ---
 __Also applies for South Australian Railways__  
 (I think it applies, my South Australian ancestors were before railways were invented.)  
