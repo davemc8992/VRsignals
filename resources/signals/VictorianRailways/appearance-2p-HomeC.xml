@@ -26,34 +26,40 @@
   </revhistory>
 
   <aspecttable>Victorian Railways</aspecttable>
-  <name>Dwarf Light 3 position signal</name>
+  <name>2 pos Single head Home with Call on</name>
   <reference>As described on Mark Bau's website - http://www.victorianrailways.net/signaling/signalhome.html.
 </reference>
-  <description>Appearances for a single light dwarf signal</description>
+  <description>Appearances for 2-position Home signal with C light</description>
   
   <appearances>
 
     <appearance>
-      <aspectname>Clear Low Speed</aspectname>
+      <aspectname>Proceed</aspectname>
       <show>green</show>
+      <show>dark</show>
       <reference></reference>
       <comment></comment>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/dw-G.png</imagelink>
-    </appearance>
-
-    <appearance>
-      <aspectname>Low Speed Warning</aspectname>
-      <show>yellow</show>
-      <reference></reference>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/dw-Y.png</imagelink>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/2pG.png</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Stop</aspectname>
       <show>red</show>
+      <show>dark</show>
       <reference></reference>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/dw-R.png</imagelink>
+      <comment></comment>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/2pR.png</imagelink>
     </appearance>
+
+    <appearance>
+      <aspectname>Proceed with Caution</aspectname>
+      <show>red</show>
+      <show>dark</show>
+      <reference></reference>
+      <comment></comment>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/2pC.png</imagelink>
+    </appearance>
+      <show>yellow</show>
 
   </appearances>
   <specificappearances>
@@ -68,72 +74,72 @@
   <aspectMappings>
     <aspectMapping>
       <advancedAspect>Clear Normal Speed</advancedAspect>
-      <ourAspect>Clear Low Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Normal Speed Warning</advancedAspect>
-      <ourAspect>Clear Low Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Reduce to Medium Speed</advancedAspect>
-      <ourAspect>Clear Low Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Clear Medium Speed</advancedAspect>
-      <ourAspect>Clear Low Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Medium Speed Warning</advancedAspect>
-      <ourAspect>Low Speed Warning</ourAspect>
-    </aspectMapping>
-
-    <aspectMapping>
-      <advancedAspect>Stop</advancedAspect>
-      <ourAspect>Low Speed Warning</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Low Speed Caution</advancedAspect>
-      <ourAspect>Low Speed Warning</ourAspect>
+      <ourAspect>Proceed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Stop</advancedAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Proceed</advancedAspect>
-      <ourAspect>Clear Low Speed</ourAspect>
-    </aspectMapping>
-
-    <aspectMapping>
-      <advancedAspect>Warning</advancedAspect>
-      <ourAspect>Low Speed Warning</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Proceed Left</advancedAspect>
-      <ourAspect>Clear Low Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Proceed Centre</advancedAspect>
-      <ourAspect>Clear Low Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Proceed Right</advancedAspect>
-      <ourAspect>Clear Low Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Proceed with Caution</advancedAspect>
-      <ourAspect>Low Speed Warning</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Caution</advancedAspect>
-      <ourAspect>Low Speed Warning</ourAspect>
+      <ourAspect>Proceed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Warning</advancedAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
   </aspectMappings>

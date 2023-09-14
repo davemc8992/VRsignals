@@ -19,7 +19,7 @@
   <revhistory xmlns="http://docbook.org/ns/docbook">
     <revision>
         <revnumber>1</revnumber>
-        <date>2020-08-14</date>
+        <date>2023-02-02</date>
         <authorinitials>DBMc</authorinitials>
         <revremark>Initial version</revremark>
     </revision>    
@@ -84,22 +84,57 @@
     <aspectMapping>
       <advancedAspect>Clear Medium Speed</advancedAspect>
       <ourAspect>Clear Low Speed</ourAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
+      <ourAspect>Low Speed Warning</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Medium Speed Warning</advancedAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
-    </aspectMapping>
-
-    <aspectMapping>
-      <advancedAspect>Stop</advancedAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
+      <ourAspect>Low Speed Warning</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Low Speed Caution</advancedAspect>
-      <ourAspect>Low Speed Caution</ourAspect>
+      <ourAspect>Low Speed Warning</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Stop</advancedAspect>
+      <ourAspect>Low Speed Warning</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed</advancedAspect>
+      <ourAspect>Clear Low Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Warning</advancedAspect>
+      <ourAspect>Low Speed Warning</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed Left</advancedAspect>
+      <ourAspect>Clear Low Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed Centre</advancedAspect>
+      <ourAspect>Clear Low Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed Right</advancedAspect>
+      <ourAspect>Clear Low Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed with Caution</advancedAspect>
+      <ourAspect>Low Speed Warning</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Caution</advancedAspect>
+      <ourAspect>Low Speed Warning</ourAspect>
     </aspectMapping>
 
   </aspectMappings>

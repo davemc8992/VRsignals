@@ -5,14 +5,15 @@
     xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation = "http://jmri.org/xml/schema/aspecttable.xsd"
 >
-  <name>Victorian Railways</name>
-  <date>1980</date>
-  <reference>Three Position signalling described on Mark Bau's website -
-http://www.victorianrailways.net/signaling/signalhome.html
-</reference>
+  <name>Victorian Railways </name>
+  <date>1915 onwards</date>
+  <reference>Two and Three Position signalling described on Mark Bau's website - http://www.victorianrailways.net/signaling/signalhome.html 
+  </reference>
+  <reference>Two and Three Position signalling described at vicsig.net https://vicsig.net/index.php?page=infrastructure
+  </reference>
 
   <copyright xmlns="http://docbook.org/ns/docbook">
-    <year>2019</year><holder>JMRI</holder>
+    <year>2023</year><holder>JMRI</holder>
   </copyright>
 
   <authorgroup xmlns="http://docbook.org/ns/docbook" >
@@ -25,7 +26,7 @@ http://www.victorianrailways.net/signaling/signalhome.html
   <revhistory xmlns="http://docbook.org/ns/docbook">
     <revision>
         <revnumber>1</revnumber>
-        <date>2020-07-11</date>
+        <date>2023-02-02</date>
         <authorinitials>DBMc</authorinitials>
         <revremark>Initial version</revremark>
     </revision>    
@@ -41,7 +42,7 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <comment></comment>
       <speed>Normal</speed>
       <speed2>Normal</speed2>
-      <route>Normal</route>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -51,7 +52,7 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <reference></reference>
       <speed>Normal</speed>
       <speed2>Stop</speed2>
-      <route>Normal</route>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -61,7 +62,7 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <reference></reference>
       <speed>Normal</speed>
       <speed2>Medium</speed2>
-      <route>Normal</route>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -70,7 +71,9 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <indication>Proceed approaching next signal at medium speed</indication>
       <reference></reference>
       <speed>Medium</speed>
-    </aspect>
+      <speed2>Normal</speed2>
+      <route>Either</route>
+      </aspect>
 
     <aspect>
       <name>Medium Speed Warning</name>
@@ -79,7 +82,7 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <reference></reference>
       <speed>Medium</speed>
       <speed2>Stop</speed2>
-      <route>Normal</route>
+      <route>Either</route>
     </aspect>
 
     <aspect>
@@ -88,7 +91,8 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <indication>Proceed; Prepare to stop at next signal</indication>
       <reference></reference>
       <speed>Slow</speed>
-      <route>Normal</route>
+      <speed2>Normal</speed2>
+      <route>Either</route>
     </aspect>
       
     <aspect>
@@ -97,15 +101,108 @@ http://www.victorianrailways.net/signaling/signalhome.html
       <indication>Proceed at low speed preparing to stop</indication>
       <reference></reference>
       <speed>Restricted</speed>
+      <speed2>Restricted</speed2>
       <route>Diverging</route>
     </aspect>
 
     <aspect>
       <name>Stop</name>
       <rule></rule>
-      <indication>Proceed approaching next signal at medium speed</indication>
+      <indication>Stop, do not proceed</indication>
       <reference></reference>
       <speed>Stop</speed>
+      <speed2></speed2>
+      <route>Either</route>
+    </aspect>
+
+    <aspect>
+      <name>Proceed</name>
+      <title></title>
+      <indication>Proceed</indication>
+      <description></description>
+      <reference></reference>
+      <comment></comment>
+      <imagelink></imagelink>
+      <speed>Normal</speed>
+      <speed2>Normal</speed2>
+      <route>Either</route>
+    </aspect>
+
+    <aspect>
+      <name>Warning</name>
+      <title></title>
+      <indication>Proceed, but be ready to stop at the next signal</indication>
+      <description></description>
+      <reference></reference>
+      <comment></comment>
+      <imagelink></imagelink>
+      <speed>Normal</speed>
+      <speed2>Stop</speed2>
+      <route>Either</route>
+    </aspect>
+
+    <aspect>
+      <name>Proceed Left</name>
+      <title></title>
+      <indication>Proceed left road</indication>
+      <description></description>
+      <reference></reference>
+      <comment>Two position signal</comment>
+      <imagelink></imagelink>
+      <speed>Normal</speed>
+      <speed2>Normal</speed2>
+      <route>Either</route>
+    </aspect>
+
+    <aspect>
+      <name>Proceed Centre</name>
+      <title></title>
+      <indication>Proceed centre road</indication>
+      <description></description>
+      <reference></reference>
+      <comment>Two position signal</comment>
+      <imagelink></imagelink>
+      <speed>Normal</speed>
+      <speed2>Normal</speed2>
+      <route>Either</route>
+    </aspect>
+
+    <aspect>
+      <name>Proceed Right</name>
+      <title></title>
+      <indication>Proceed right road</indication>
+      <description></description>
+      <reference></reference>
+      <comment>Two position signal</comment>
+      <imagelink></imagelink>
+      <speed>Normal</speed>
+      <speed2>Normal</speed2>
+      <route>Either</route>
+    </aspect>
+
+    <aspect>
+      <name>Proceed with Caution</name>
+      <title></title>
+      <indication>Proceed</indication>
+      <description></description>
+      <reference></reference>
+      <comment></comment>
+      <imagelink></imagelink>
+      <speed>Restricted</speed>
+      <speed2>Restricted</speed2>
+      <route>Either</route>
+    </aspect>
+
+    <aspect>
+      <name>Caution</name>
+      <title></title>
+      <rule></rule>
+      <indication>Proceed with caution track could be occupied</indication>
+      <description></description>
+      <reference></reference>
+      <comment>Two position signal</comment>
+      <speed>Restricted</speed>
+      <speed2>Restricted</speed2>
       <route>Either</route>
     </aspect>
 
@@ -113,9 +210,18 @@ http://www.victorianrailways.net/signaling/signalhome.html
 
   <appearancefiles>
     <appearancefile href="appearance-dw1.xml"/>
+    <appearancefile href="appearance-dw-disc.xml"/>
     <appearancefile href="appearance-sl2h.xml"/>
-    <appearancefile href="appearance-sl3h.xml"/>
+    <appearancefile href="appearance-sl2h-auto.xml"/>
+    <appearancefile href="appearance-sl2hC.xml"/>
+    <appearancefile href="appearance-sl2h-rep.xml"/>
+    <appearancefile href="appearance-2p-Home.xml"/>
+    <appearancefile href="appearance-2p-HomeC.xml"/>
+    <appearancefile href="appearance-2p-Dist.xml"/>
+    <appearancefile href="appearance-2p-Repeat.xml"/>
+    <appearancefile href="appearance-2p-Dwarf.xml"/>
+    <appearancefile href="appearance-2p-HomeArr2.xml"/>
+    <appearancefile href="appearance-2p-HomeArr3.xml"/>
   </appearancefiles>
   
 </aspecttable>
-  

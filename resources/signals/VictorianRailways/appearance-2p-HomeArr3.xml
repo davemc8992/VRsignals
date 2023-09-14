@@ -26,63 +26,51 @@
   </revhistory>
 
   <aspecttable>Victorian Railways</aspecttable>
-  <name>Two head Home</name>
+  <name>2 pos Home Arrival 3 dolls</name>
   <reference>As described on Mark Bau's website - http://www.victorianrailways.net/signaling/signalhome.html.
 </reference>
-  <description>Appearances for common two-head signal mast</description>
+  <description>Appearances for 2-position Home signal with three dolls</description>
   
   <appearances>
 
     <appearance>
-      <aspectname>Clear Normal Speed</aspectname>
+      <aspectname>Proceed Left</aspectname>
+      <show>green</show>
+      <show>red</show>
+      <show>red</show>
+      <reference></reference>
+      <comment></comment>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/2pArr3L.png</imagelink>
+    </appearance>
+
+    <appearance>
+      <aspectname>Proceed Centre</aspectname>
+      <show>red</show>
       <show>green</show>
       <show>red</show>
       <reference></reference>
-      <comment>aka Top green</comment>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-GR.png</imagelink>
+      <comment></comment>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/2pArr3C.png</imagelink>
     </appearance>
 
     <appearance>
-      <aspectname>Normal Speed Warning</aspectname>
-      <show>yellow</show>
+      <aspectname>Proceed Right</aspectname>
+       <show>red</show>
       <show>red</show>
+     <show>green</show>
       <reference></reference>
-      <comment>aka Top yellow</comment>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-YR.png</imagelink>
+      <comment></comment>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/2pArr3R.png</imagelink>
     </appearance>
 
-    <appearance>
-      <aspectname>Reduce to Medium Speed</aspectname>
-      <show>yellow</show>
-      <show>green</show>
-      <reference></reference>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-YG.png</imagelink>
-    </appearance>
-
-    <appearance>
-      <aspectname>Clear Medium Speed</aspectname>
-      <show>red</show>
-      <show>green</show>
-      <reference></reference>
-      <comment>aka Bottom green</comment>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-RG.png</imagelink>
-    </appearance>
-
-    <appearance>
-      <aspectname>Medium Speed Warning</aspectname>
-      <show>red</show>
-      <show>yellow</show>
-      <reference></reference>
-      <comment>aka Bottom yellow</comment>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-RY.png</imagelink>
-    </appearance>
-
-    <appearance>
+   <appearance>
       <aspectname>Stop</aspectname>
       <show>red</show>
       <show>red</show>
+      <show>red</show>
       <reference></reference>
-      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/sl2h-RR.png</imagelink>
+      <comment></comment>
+      <imagelink>preference:resources/icons/smallschematics/aspects/VictorianRailways/2pArr3stop.png</imagelink>
     </appearance>
 
   </appearances>
@@ -98,86 +86,72 @@
   <aspectMappings>
     <aspectMapping>
       <advancedAspect>Clear Normal Speed</advancedAspect>
-      <ourAspect>Clear Normal Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Normal Speed Warning</advancedAspect>
-      <ourAspect>Clear Normal Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Reduce to Medium Speed</advancedAspect>
-      <ourAspect>Clear Normal Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Clear Medium Speed</advancedAspect>
-      <ourAspect>Reduce to Medium Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Medium Speed Warning</advancedAspect>
-      <ourAspect>Reduce to Medium Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Low Speed Caution</advancedAspect>
-      <ourAspect>Normal Speed Warning</ourAspect>
-      <ourAspect>Medium Speed Warning</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Stop</advancedAspect>
-      <ourAspect>Normal Speed Warning</ourAspect>
-      <ourAspect>Medium Speed Warning</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Proceed</advancedAspect>
-      <ourAspect>Clear Normal Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
-    </aspectMapping>
-
-    <aspectMapping>
-      <advancedAspect>Warning</advancedAspect>
-      <ourAspect>Clear Normal Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Proceed Left</advancedAspect>
-      <ourAspect>Clear Normal Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Proceed Centre</advancedAspect>
-      <ourAspect>Clear Normal Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Proceed Right</advancedAspect>
-      <ourAspect>Clear Normal Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Proceed with Caution</advancedAspect>
-      <ourAspect>Clear Normal Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
       <advancedAspect>Caution</advancedAspect>
-      <ourAspect>Clear Normal Speed</ourAspect>
-      <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Proceed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Warning</advancedAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
   </aspectMappings>

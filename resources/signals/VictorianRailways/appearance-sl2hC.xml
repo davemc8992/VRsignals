@@ -19,17 +19,17 @@
   <revhistory xmlns="http://docbook.org/ns/docbook">
     <revision>
         <revnumber>1</revnumber>
-        <date>2020-07-11</date>
+        <date>2023-02-02</date>
         <authorinitials>DBMc</authorinitials>
         <revremark>Initial version</revremark>
     </revision>    
   </revhistory>
 
   <aspecttable>Victorian Railways</aspecttable>
-  <name>Searchlight 3 heads</name>
+  <name>Two head plus C light</name>
   <reference>As described on Mark Bau's website - http://www.victorianrailways.net/signaling/signalhome.html.
 </reference>
-  <description>Appearances for a three-searchlight signal head, includes C light</description>
+  <description>Appearances for a three-head signal mast, includes C light</description>
   
   <appearances>
 
@@ -133,6 +133,7 @@
       <advancedAspect>Reduce to Medium Speed</advancedAspect>
       <ourAspect>Clear Normal Speed</ourAspect>
       <ourAspect>Clear Medium Speed</ourAspect>
+      <ourAspect>Low Speed Caution</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
@@ -153,6 +154,7 @@
       <advancedAspect>Low Speed Caution</advancedAspect>
       <ourAspect>Medium Speed Warning</ourAspect>
       <ourAspect>Normal Speed Warning</ourAspect>
+      <ourAspect>Low Speed Caution</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
@@ -160,6 +162,48 @@
       <ourAspect>Normal Speed Warning</ourAspect>
       <ourAspect>Medium Speed Warning</ourAspect>
       <ourAspect>Low Speed Caution</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Warning</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed Left</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed Centre</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed Right</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Proceed with Caution</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+      <advancedAspect>Caution</advancedAspect>
+      <ourAspect>Clear Normal Speed</ourAspect>
+      <ourAspect>Clear Medium Speed</ourAspect>
     </aspectMapping>
 
   </aspectMappings>
